@@ -695,6 +695,10 @@ p {
 .screenshot-cell img {
   height: 590px;
 }
+.small-image {
+  width: 100px;
+  height: auto;
+}
 
 @media (max-width: 1024px) {
   .swiper-container {
@@ -708,7 +712,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 600px;
+    width: 100px;
     height: auto;
   }
 }
@@ -721,7 +725,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 600px;
+    width: 100px;
     height: auto;
   }
 }
