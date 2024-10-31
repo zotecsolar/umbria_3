@@ -25,7 +25,7 @@
  *    16.  Contact     *
  *    17.  Footer      *
  ======================*/
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap"); /*https://fonts.googleapis.com/css?family=Nunito:400,600,700|Roboto&display=swap*/
 .btn {
   padding: 10px 24px;
   outline: none;
