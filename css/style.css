@@ -722,6 +722,11 @@ p {
   .screenshot-cell img {
     height: 475px;
   }
+  /* Add this section to make the image smaller on smartphones */
+  .small-image {
+    width: 100px;
+    height: auto;
+  }
 }
 @media (max-width: 767px) {
   .swiper-button-next, .swiper-button-prev {
