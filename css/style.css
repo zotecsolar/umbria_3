@@ -67,8 +67,8 @@
   color: #000000;
 }
 .btn.btn-outline-white {
-  border: 1px solid #000000 !important;
-  color: #000000;
+  border: 1px solid #ffffff !important;
+  color: #ffffff;
   background-color: transparent;
 }
 .btn.btn-outline-white:hover, .btn.btn-outline-white:focus, .btn.btn-outline-white:active, .btn.btn-outline-white.active, .btn.btn-outline-white.focus {
