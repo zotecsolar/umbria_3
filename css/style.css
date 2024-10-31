@@ -129,7 +129,7 @@ p {
 }
 
 .bg-overlay {
-  background-color: rgba(60, 52, 2, 0.85);
+  background-color: rgba(255, 222, 6, 0.079);
   position: absolute;
   top: 0;
   right: 0;
@@ -366,10 +366,10 @@ p {
   font-family: "Nunito", sans-serif;
 }
 .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:active {
-  color: #0b044d !important;
+  color: #f6c500 !important;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: #0b044d  !important;
+  color: #f6c500  !important;
 }
 
 .nav-sticky.navbar-custom {
@@ -389,10 +389,10 @@ p {
   color: #2f3545 !important;
 }
 .nav-sticky.navbar-custom .navbar-nav li a:hover, .nav-sticky.navbar-custom .navbar-nav li a:active {
-  color: #23d1b7 !important;
+  color: #d1bd23 !important;
 }
 .nav-sticky.navbar-custom .navbar-nav li.active a {
-  color: #23d1b7 !important;
+  color: #f6c500 !important;
 }
 .nav-sticky.navbar-custom.sticky-light {
   background-color: #ffffff;
@@ -408,8 +408,8 @@ p {
 }
 
 .login-button {
-  color: #ffffff;
-  background-color: #23d1b7;
+  color: #000000;
+  background-color: #f6c500;
   text-transform: uppercase;
   font-size: 13px;
   transition: all 0.5s;
