@@ -696,7 +696,7 @@ p {
   height: 590px;
 }
 .small-image {
-  width: 100px;
+  width: 300px;
   height: auto;
 }
 
@@ -712,7 +712,7 @@ p {
   }
   /* Add this section to make the image smaller on smartphones */
   .small-image {
-    width: 100px;
+    width: 300px;
     height: auto;
   }
 }
