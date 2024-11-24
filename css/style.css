@@ -330,13 +330,14 @@ p {
   }
 }
 .navbar-custom {
-  background-color: transparent;
-  padding: 20px 0;
-  width: 100%;
-  border-radius: 0px;
-  z-index: 999;
-  margin-bottom: 0px;
-  transition: all 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #111d38 !important; /* Force dark blue background */
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
 }
 .navbar-custom .navbar-toggler {
   color: #ffffff;
@@ -375,11 +376,9 @@ p {
 }
 
 .nav-sticky.navbar-custom {
-  margin-top: 0px;
-  padding: 12px 0px;
-  background-color: #ffffff;
-  box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
-  color: #29292d !important;
+    background-color: #111d38 !important;
+    padding: 15px 0;
+    box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
 }
 .nav-sticky.navbar-custom .navbar-toggler {
   color: #535353;
