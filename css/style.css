@@ -975,3 +975,10 @@ p {
     text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
+
+[data-reonic-type="element"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden; /* Avoid content overflowing */
+}
