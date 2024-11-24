@@ -977,28 +977,30 @@ p {
   }
 }/*# sourceMappingURL=style.css.map */
 
-/* Ensure the popup takes the full width */
-[data-reonic-type="element"] .popup-class { /* Replace .popup-class with actual popup class name */
-    width: 100vw; /* Full viewport width */
-    max-width: 100%; /* Prevent any additional restrictions */
-    left: 0; /* Align to the left edge */
-    right: 0; /* Ensure it spans full width */
-    margin: 0 auto; /* Center the popup horizontally */
-}
-
-/* Ensure the inner content inside the popup is not trimmed */
-[data-reonic-type="element"] .popup-inner-class { /* Replace .popup-inner-class with actual class */
-    width: 100%;
-    box-sizing: border-box;
-}
-
-/* Ensure responsive design for the widget */
+/* Target the widget container */
 [data-reonic-type="element"] {
-    width: 100%;
-    max-width: 100%;
-    display: block;
-    overflow: visible;
+    width: 100%; /* Make it take full width of the parent container */
+    max-width: 100%; /* Prevent width restrictions */
+    overflow: visible !important; /* Allow content to flow outside, if necessary */
 }
-[data-reonic-type="element"] .popup-class {
-    width: 100% !important;
+
+/* For the popup inside the widget */
+[data-reonic-type="element"] .popup-class { /* Replace .popup-class with the actual class of the popup */
+    width: 100vw; /* Full viewport width for the popup */
+    max-width: 100%; /* Prevent restrictions */
+    left: 0; /* Ensure it starts from the left */
+    right: 0; /* Ensure it spans full width */
+    position: fixed; /* Keep it positioned correctly */
+}
+
+/* Ensure inner content inside the popup is not trimmed */
+[data-reonic-type="element"] .popup-inner-class { /* Replace .popup-inner-class with the actual popup inner class */
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+}
+
+.data-reonic {
+    width: 100vw;
+    max-width: 100%;
+    overflow: visible;
 }
