@@ -26,6 +26,23 @@
         }
     });
 
+   // Add this to your app.js or plugin.init.js
+window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.navbar-custom');
+    if (window.scrollY > 50) {
+        navbar.classList.add('nav-sticky');
+        navbar.style.backgroundColor = '#111d38'; // Dark blue background
+    } else {
+        navbar.classList.add('nav-sticky');
+        navbar.style.backgroundColor = '#111d38'; // Keep dark blue even at top
+    }
+});
+
+// Handle mobile menu
+document.addEventListener('DOMContentLoaded', function() {
+    var navbar = document.querySelector('.navbar-custom');
+    navbar.style.backgroundColor = '#111d38'; // Set initial dark blue background
+});
     $('.navbar-nav a, .mouse-down').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
