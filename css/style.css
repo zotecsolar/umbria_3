@@ -357,7 +357,7 @@ p {
   display: inline-block;
 }
 .navbar-custom .navbar-nav li a {
-  color: #ffffff !important;
+  color: #ffffff;
   font-size: 12.5px;
   background-color: transparent !important;
   margin: 0 8px;
