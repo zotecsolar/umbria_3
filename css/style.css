@@ -83,6 +83,10 @@ body {
   overflow-x: hidden !important;
   font-size: 15px;
   color: #535353;
+  width: 100%; /*added*/
+  max-width: 100%;/*added*/
+  margin: 0;/*added*/
+  padding: 0;/*added*/
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
