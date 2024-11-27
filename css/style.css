@@ -1009,7 +1009,8 @@ p {
     overflow: visible;
 }
 
-.w-100svw {
-  width: 100vw;
-  max-width: 100vw;
+[class*="w-100svw"] {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
 }
