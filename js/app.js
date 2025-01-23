@@ -7,14 +7,6 @@
 
 ! function($) {
     "use strict";    
-    // Loader 
-    $(window).on('load', function() {
-        $('#status').fadeOut();
-        $('#preloader').delay(350).fadeOut('slow');
-        $('body').delay(350).css({
-            'overflow': 'visible'
-        });
-    });
     // Menu
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
@@ -26,23 +18,6 @@
         }
     });
 
-   // Add this to your app.js or plugin.init.js
-window.addEventListener('scroll', function() {
-    var navbar = document.querySelector('.navbar-custom');
-    if (window.scrollY > 50) {
-        navbar.classList.add('nav-sticky');
-        navbar.style.backgroundColor = '#111d38'; // Dark blue background
-    } else {
-        navbar.classList.add('nav-sticky');
-        navbar.style.backgroundColor = '#111d38'; // Keep dark blue even at top
-    }
-});
-
-// Handle mobile menu
-document.addEventListener('DOMContentLoaded', function() {
-    var navbar = document.querySelector('.navbar-custom');
-    navbar.style.backgroundColor = '#111d38'; // Set initial dark blue background
-});
     $('.navbar-nav a, .mouse-down').on('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -54,17 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Scrollspy
     $("#navbarCollapse").scrollspy({ offset: 70 });
     
-    // Magnific Popup
-    $('.mfp-image').magnificPopup({
-        type: 'image',
-        closeOnContentClick: true,
-        mainClass: 'mfp-fade',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1]
-        }
-    });
     // BACK TO TOP
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
